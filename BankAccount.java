@@ -6,10 +6,10 @@ public class BankAccount {
         this.balance = balance;
         this.money = money;
     }
-    public BankAccount(){
+    public BankAccount(String msg){
         System.out.println("This is the best way to make constructor rather than Java_Developer made!");
     }
-    public void checkPoint(){
+    protected void checkPoint(){
         System.out.println("Your transaction successfully accomplished");
     }
 
