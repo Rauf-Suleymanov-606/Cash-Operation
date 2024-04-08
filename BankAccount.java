@@ -9,8 +9,8 @@ public class BankAccount {
     public BankAccount(){
         System.out.println("This is the best way to make constructor rather than Java_Developer made!");
     }
-    public int checkPoint(){
-        return 1;
+    public void checkPoint(){
+        System.out.println("Your transaction successfully accomplished");
     }
 
     public void insufficientBalance() {
