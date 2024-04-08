@@ -6,6 +6,9 @@ public class BankAccount {
         this.balance = balance;
         this.money = money;
     }
+    public BankAccount(){
+        System.out.println("This is the best way to make constructor rather than Java_Developer made!");
+    }
 
     public void insufficientBalance() {
         double totalBalance = balance - money;
