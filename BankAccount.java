@@ -10,7 +10,8 @@ public class BankAccount {
     public void insufficientBalance() {
         double totalBalance = balance - money;
         if (balance < money) {
-            throw new InsufficientBalanceException("Insufficient balance!");
+            throw new InsufficientBalanceException("Insufficient balance please, increase your card balance!");
+
         } else {
             System.out.println("Operation successfully completed and your balance is : " + totalBalance + " USD");
         }
